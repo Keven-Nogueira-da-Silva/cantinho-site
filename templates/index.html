@@ -325,38 +325,36 @@ video {
                 <h2 class="text-2xl font-bold text-blue-700 mb-6 border-b pb-2">Galeria de Fotos</h2>
                 <div class="image-gallery">
                     <div class="photo-container">
-                        <img src="imagens/Imagem do WhatsApp de 2025-05-02 à(s) 10.41.08_454c4dd1.jpg" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
+                        <img src="{{ url_for('static', filename='imagens/psj.jpg') }}" alt="Imagem psj" class="gallery-image" onclick="zoomImage(this)">
                     </div>
                     
                     <div class="photo-container">
-                        <img src="imagens/Imagem do WhatsApp de 2025-05-02 à(s) 10.41.07_8ebd87a0.jpg" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
+                        <img src="{{ url_for('static', filename='imagens/czd.jpg') }}" alt="Imagem cdz" class="gallery-image" onclick="zoomImage(this)">
                     </div>
                     
                     <div class="photo-container">
-                        <img src="imagens/Imagem do WhatsApp de 2025-04-28 à(s) 16.23.08_3453a128.jpg"Foto do espaço class="gallery-image" onclick="zoomImage(this)">
+                        <img src="{{ url_for('static', filename='imagens/chu.jpg') }}"Foto do espaço class="gallery-image" onclick="zoomImage(this)">
                     </div>
                     
                     <div class="photo-container">
-                        <img src="imagens/Imagem do WhatsApp de 2025-04-29 à(s) 10.18.32_aedbce56.jpg" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
+                        <img src="{{ url_for('static', filename='imagens/psa.jpg') }}" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
 
                     </div>
                     
                     <div class="photo-container">
-                        <img src="imagens/Imagem do WhatsApp de 2025-04-28 à(s) 19.47.24_3b51cad3.jpg" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
+                        <img src="{{ url_for('static', filename='imagens/pls.jpg') }}" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
 
                     </div>
                     
                     <div class="photo-container">
-                        <img src="imagens/Imagem do WhatsApp de 2025-04-28 à(s) 16.23.08_9f1e07bd.jpg" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
+                        <img src="{{ url_for('static', filename='imagens/cde.jpg') }}" alt="Foto do espaço" class="gallery-image" onclick="zoomImage(this)">
                     </div>
                     <video controls>
-                        <source src="imagens/Vídeo do WhatsApp de 2025-05-02 à(s) 11.14.24_b30ed2f4.mp4" type="video/mp4">
-                        <source src="imagens/Vídeo do WhatsApp de 2025-05-02 à(s) 11.14.24_b30ed2f4.mp4" type="video/webm">
+                        <source src="{{ url_for('static', filename='videos/spc.mp4') }}" type="video/mp4">
                     </video>
 
                     <video controls>
-                        <source src="imagens/Vídeo do WhatsApp de 2025-05-04 à(s) 12.57.06_f809cc8a.mp4" type="video/mp4">
-                        <source src="imagens/Vídeo do WhatsApp de 2025-05-04 à(s) 12.57.06_f809cc8a.mp4" type="video/webm">
+                        <source src="{{ url_for('static', filename='videos/csa.mp4') }}"  type="video/mp4">
                     </video>
                 </div>
             </div>

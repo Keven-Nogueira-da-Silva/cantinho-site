@@ -18,7 +18,7 @@ class Reserva(db.Model):
 def index():
     return render_template('index.html')
 
-@app.route('/home')
+@app.route('/home.html')
 def home():
     return render_template('home.html')
 
